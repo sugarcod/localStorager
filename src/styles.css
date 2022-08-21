@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  background: url(./img/background-image.jpg);
+}
+.block-input {
+  max-width: 80%;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: auto 80px;
+  align-items: center;
+  justify-content: center;
+}
+.block-input input {
+  height: 24px;
+  min-width: 500px;
+  width: 30%;
+
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.block-btn {
+  height: 24px;
+  box-sizing: content-box;
+}
+
+.task {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  background: #ebcaca;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.task-title {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  border-top: 2px solid black;
+  padding-bottom: 30px;
+}
+
+.task-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 34px;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-column-gap: 10px;
+  align-items: center;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgb(0, 255, 221);
+}
+
+.task-item button {
+  cursor: pointer;
+  height: 24px;
+  background: rgb(10, 156, 175);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  box-sizing: content-box;
+}
